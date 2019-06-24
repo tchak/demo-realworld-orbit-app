@@ -973,6 +973,16 @@
   resolved "https://registry.yarnpkg.com/@orbit/immutable/-/immutable-0.16.0-beta.8.tgz#14efc6c28ee4ccc704f31be309225bfd1aa2a4d1"
   integrity sha512-AIn2YhQwnN5hxeCPqjKxi2q4f56IjHhorHT7t/75MbM/HND88NOd1nnZ1YausWB9NZcASuKN9KzteEHfG1lhGA==
 
+"@orbit/indexeddb@^0.16.0-beta.8":
+  version "0.16.0-beta.8"
+  resolved "https://registry.yarnpkg.com/@orbit/indexeddb/-/indexeddb-0.16.0-beta.8.tgz#b682c1b89e2dfb48e05670f54aef1972f8edb3e2"
+  integrity sha512-NpUCaApJ4mL4ebCVCBExDMyOh9g8+Nf7tJKHXE/H2VCOo9+6KpMzFFW3zlKNc8M9eoiDsVOUAr80v6SXDVCVQQ==
+  dependencies:
+    "@orbit/core" "^0.16.0-beta.8"
+    "@orbit/data" "^0.16.0-beta.8"
+    "@orbit/record-cache" "^0.16.0-beta.8"
+    "@orbit/utils" "^0.16.0-beta.8"
+
 "@orbit/jsonapi@^0.16.0-beta.8":
   version "0.16.0-beta.8"
   resolved "https://registry.yarnpkg.com/@orbit/jsonapi/-/jsonapi-0.16.0-beta.8.tgz#93b76e460b7334f4da8ecbe8cdc392f0b161a91d"

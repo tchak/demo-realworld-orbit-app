@@ -1,6 +1,9 @@
 {{title (t "Ember Octan Template")}}
 
 <div class="container mx-auto text-base text-black font-sans font-normal tracking-normal">
+  <header>
+    {{#link-to "index"}}{{t "Home"}}{{/link-to}}
+  </header>
   {{outlet}}
 </div>
 
