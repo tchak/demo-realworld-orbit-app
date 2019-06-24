@@ -7,6 +7,8 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('profile', { path: 'profile/:username' });
+  this.route('article', { path: 'article/:slug' });
   this.route('404', { path: '/*path' });
 });
 

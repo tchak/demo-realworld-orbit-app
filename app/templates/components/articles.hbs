@@ -1,0 +1,9 @@
+<ul>
+  {{#each @articles as |article|}}
+    <li>
+      {{#link-to "article" article.attributes.slug}}
+        <h3>{{article.attributes.title}}</h3>
+      {{/link-to}}
+    </li>
+  {{/each}}
+</ul>

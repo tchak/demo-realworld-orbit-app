@@ -1,3 +1,5 @@
-<div class="container mx-auto">
-  <Card class="mt-4" />
-</div>
+{{#if model.length}}
+  <Articles @articles={{model}}/>
+{{else}}
+  {{t "No articles published yet"}}
+{{/if}}
